@@ -8,4 +8,5 @@ print(19, type(19))
 print(1.71, type(1.71))
 
 # Of legal age
-print(19 > 18, type(19>18))
+print(19 > 18, type(19 > 18))
+
