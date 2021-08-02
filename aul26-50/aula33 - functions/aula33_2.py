@@ -11,14 +11,19 @@
 # else:
 #     print('Conta invalida')
 
-def f(var):
-    print(var)
+# def f(var):
+#     print(var)
+#
+# def dumb():
+#     return f
+#
+# # dumb()('Teste')
+#
+# vari = dumb()
+#
+# vari('Now here!')
 
 def dumb():
-    return f
+    return ('Arthur', 'Venicio')
 
-# dumb()('Teste')
-
-vari = dumb()
-
-vari('Now here!')
+print(dumb(), type(dumb()))
