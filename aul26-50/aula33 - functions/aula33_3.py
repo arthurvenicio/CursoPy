@@ -28,12 +28,12 @@ def fizzbuzz(var):
 
     if divpor3 and divpor5:
         return 'FizzBuzz'
-    elif divpor3:
+    if divpor3:
         return 'Fizz'
-    elif divpor5:
+    if divpor5:
         return 'Buzz'
-    else:
-        return var
+
+    return var
 
 
 t = fizzbuzz(3)
