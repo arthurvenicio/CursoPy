@@ -8,6 +8,7 @@ def func(*args, **kwargs):
     else:
         print('Don\'t have age here!')
 
+
 list = [1, 2, 3, 4, 5]
 
 func(*list, age=31)
